@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+#title{
+  text-align:center;
+  background-color:#00234F;
+  color:white;
+  border:2px solid black;
+}
+#title2{
+  text-align:center;
+  width:50%;
+  background-color:black;
+  color:white;
+  border:2px solid gold;
+  margin-right:50%;
+    display:inline-block;
+}
+#puntuacion{
+  text-align:center;
+  width:25%;
+  background-color:black;
+  color:white;
+  margin: 0 auto;
+  display:inline-block;
+}
+
+#score{
+  width: 15em;
+  float:right;
+  border:solid #002345 2px;
+  text-align:center;
+}
+
+#helloForm{
+  width:20em;
+  border:solid,black,5px;
+}
+
+
+#menu{
+  margin:10px auto;
+  text-align:center;
+  border:2px solid black;
+}
+
+.labels{
+  width:15em;
+  text-align:left;
+}
+
+.myBts{
+  margin-top:1em;
+  width:2em;
+  height:2em;
+  border:solid black 2px;
+}
+
+.blue{
+  background-color:blue;
+
+}
+
+.black{
+  background-color:black;
+}
+
+.red{
+  background-color:red;
+}
+
+label > div > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+canvas{
+  margin-left:43%;
+}

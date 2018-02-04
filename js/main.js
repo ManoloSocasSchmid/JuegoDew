@@ -640,6 +640,7 @@ function elimnarExplosiones() {
 }
 
 function addScores(){
+  first = false;
   puntos = puntos + parseInt(tiempo*dif/2);
   score = {name:userActual.name, puntos:puntos}
   highScore.push(score);
